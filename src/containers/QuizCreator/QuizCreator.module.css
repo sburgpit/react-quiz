@@ -1,0 +1,40 @@
+.QuizCreator {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 70px;
+  flex-grow: 1;
+  background: #360033;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.QuizCreator > div {
+  width: 100%;
+  max-width: 400px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.QuizCreator h1 {
+  color: #fff;
+  margin-top: 0;
+  text-align: center;
+}
+
+.QuizCreator form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.3);
+}
+
+.QuizCreator hr {
+  border: none;
+  height: 1px;
+  width: 30px;
+  background: #bebebe;
+}
+
